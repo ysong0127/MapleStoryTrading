@@ -22,7 +22,7 @@ type Props = {
 export default function MonsterCard({ monster }: Props) {
   return (
     <div className="monster-card">
-      <img src={`/image/${monster.name}.png`} alt={monster.name} />
+      <img src={`/assets/${monster.name}.png`} alt={monster.name} />
       <h3>{monster.name}</h3>
       <p className="lvl">等級：{monster.level}</p>
       <div className="drops">

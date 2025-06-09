@@ -1,11 +1,7 @@
-
-
 export default function Home() {
-  
   return (
-  
-  <div><h2>歡迎來到虛擬寶物交換平台</h2></div>);
-  ;
+    <div style={{ padding: "2rem", background: "pink" }}>
+      <h1>這是 Home 首頁</h1>
+    </div>
+  );
 }
-
-

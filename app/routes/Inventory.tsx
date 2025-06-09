@@ -42,7 +42,7 @@ export default function ScrollInventory() {
             }}
           >
             <img
-              src={'/image/'+encodeURIComponent(scroll.img)}
+              src={'/assets/'+encodeURIComponent(scroll.img)}
               alt={scroll.name}
               style={{ width: 40, marginRight: 12 }}
             />

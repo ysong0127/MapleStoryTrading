@@ -13,8 +13,8 @@ export default function Inventory() {
     name: "嫩寶",
     level: 1,
     drops: [
-      { id: "a1", name: "紅色藥水", img: "/image/紅色藥水.png" },
-      { id: "a2", name: "青蘋果", img: "/image/青蘋果.png" }
+      { id: "a1", name: "紅色藥水", img: "/assets/紅色藥水.png" },
+      { id: "a2", name: "青蘋果", img: "/assets/青蘋果.png" }
     ]
   },
   {
@@ -22,7 +22,7 @@ export default function Inventory() {
     name: "藍寶",
     level: 2,
     drops: [
-      { id: "b1", name: "紅色藥水", img: "/image/紅色藥水.png" }
+      { id: "b1", name: "紅色藥水", img: "/assets/紅色藥水.png" }
     ]
   }
 ];
