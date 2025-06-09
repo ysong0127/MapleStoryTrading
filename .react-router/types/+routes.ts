@@ -13,6 +13,9 @@ type Pages = {
   "/": {
     params: {};
   };
+  "/index": {
+    params: {};
+  };
   "/submit": {
     params: {};
   };
@@ -27,15 +30,19 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/submit" | "/inventory" | "/MonsterInfo";
+    page: "/" | "/index" | "/submit" | "/inventory" | "/MonsterInfo";
   };
   "routes/MainLayout.tsx": {
     id: "routes/MainLayout";
-    page: "/" | "/submit" | "/inventory" | "/MonsterInfo";
+    page: "/" | "/index" | "/submit" | "/inventory" | "/MonsterInfo";
   };
   "routes/home.tsx": {
     id: "routes/home";
     page: "/";
+  };
+  "routes/index.tsx": {
+    id: "routes/index";
+    page: "/index";
   };
   "routes/SubmitItem.tsx": {
     id: "routes/SubmitItem";
