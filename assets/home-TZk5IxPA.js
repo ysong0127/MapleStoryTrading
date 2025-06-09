@@ -1,0 +1,1 @@
+import{w as t,j as o}from"./chunk-NL6KNZEE-lQEhqfrb.js";import"./SubmitItem-BcVDQ18_.js";const s=t(function(){return o.jsx("div",{children:o.jsx("h2",{children:"歡迎來到虛擬寶物交換平台"})})});export{s as default};

@@ -1,0 +1,1 @@
+import{w as t,j as s}from"./chunk-NL6KNZEE-lQEhqfrb.js";import"./SubmitItem-BcVDQ18_.js";const o=t(function(){return s.jsxs("main",{className:"p-4",children:[s.jsx("h1",{className:"text-3xl font-bold",children:"MapleStory Trading"}),s.jsx("p",{className:"mt-2",children:"這是我們的楓之谷卷軸與寶物交易平台"})]})});export{o as default};
