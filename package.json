@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "https://ysong0127.github.io/MapleStoryTrading",
   "scripts": {
-    "build": "react-router build --spa",
+    "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
